@@ -9,6 +9,7 @@
 <script>
 export default {
     methods: {
+      //router'da tanımlamalar nasıl yapılmışsa herhangi biriyle yönlendirme yapılabiliyor.
       goToHome(){
         this.$router.push({
           name:"HomePage"

@@ -1,8 +1,10 @@
 <template>
   <div>
-      <h1>Details {{ $route.params.id}}</h1>
+      <!-- Home'dan gönderilen goToDetails fonksiyonunun içindeki veriler karşılanıyor -->
+      <h1>{{ $route.params.userID }}</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, fuga placeat! Laboriosam enim aliquam eligendi adipisci voluptas! Maiores, dignissimos nulla.</p>
-      <p>{{ $route.params.id }}</p>
+      <!-- <p>{{ $route.params.id }}</p> -->
+      <!-- <p>{{ $router.query.klan }}</p> -->
       <button @click="goBack">Geri Dön</button>
   </div>
 </template>
